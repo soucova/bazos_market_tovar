@@ -1,0 +1,9 @@
+8
+[112345];[Mrkva]
+[113456];[Uhorka]
+[234567];[Jablko]
+[245678];[Citron]
+[256789];[Banan]
+[312345];[Jogurt Cokoladovy]
+[356789];[Jogurt Jahodovy]
+[391817];[Mlieko]

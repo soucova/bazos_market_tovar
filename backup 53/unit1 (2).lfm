@@ -1,0 +1,133 @@
+object Form1: TForm1
+  Left = 1136
+  Height = 491
+  Top = 127
+  Width = 697
+  BorderStyle = bsDialog
+  Caption = 'Interná Databáza Tovaru'
+  ClientHeight = 491
+  ClientWidth = 697
+  Color = 13420731
+  OnCreate = FormCreate
+  LCLVersion = '1.4.0.4'
+  object StringGrid1: TStringGrid
+    Left = 16
+    Height = 360
+    Top = 112
+    Width = 440
+    AutoFillColumns = True
+    ColCount = 3
+    Columns = <    
+      item
+        Title.Caption = 'Title'
+        Width = 186
+      end    
+      item
+        Title.Caption = 'Title'
+        Width = 186
+      end>
+    TabOrder = 0
+    ColWidths = (
+      64
+      186
+      186
+    )
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 65
+    Top = 40
+    Width = 144
+    Caption = 'Vytvorit Polozku'
+    Color = 10654060
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 536
+    Height = 23
+    Top = 56
+    Width = 144
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 490
+    Height = 15
+    Top = 64
+    Width = 39
+    Caption = 'Nazov :'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 473
+    Height = 15
+    Top = 96
+    Width = 56
+    Caption = 'Kategoria :'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 502
+    Height = 15
+    Top = 128
+    Width = 27
+    Caption = 'Kod :'
+    ParentColor = False
+  end
+  object ComboBox1: TComboBox
+    Left = 536
+    Height = 23
+    Top = 88
+    Width = 144
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'Zelenina'
+      'Ovocie'
+      'Mliecne vyrobky'
+      'Drogeria'
+      'Ine'
+    )
+    OnSelect = ComboBox1Select
+    Style = csDropDownList
+    TabOrder = 3
+    Text = 'Zelenina'
+  end
+  object Edit2: TEdit
+    Left = 536
+    Height = 23
+    Top = 120
+    Width = 144
+    TabOrder = 4
+    Text = '100000'
+  end
+  object Button2: TButton
+    Left = 473
+    Height = 25
+    Top = 160
+    Width = 207
+    Caption = 'Pridat Tovar'
+    OnClick = Button2Click
+    TabOrder = 5
+  end
+  object Memo1: TMemo
+    Left = 464
+    Height = 248
+    Top = 224
+    Width = 216
+    Lines.Strings = (
+      'Memo1'
+    )
+    ReadOnly = True
+    TabOrder = 6
+  end
+  object Button3: TButton
+    Left = 168
+    Height = 65
+    Top = 40
+    Width = 144
+    Caption = 'Odstranit Oznacene'
+    Color = 10654060
+    TabOrder = 7
+  end
+end

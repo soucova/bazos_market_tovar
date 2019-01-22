@@ -1,0 +1,170 @@
+object Form1: TForm1
+  Left = 366
+  Height = 491
+  Top = 148
+  Width = 943
+  BorderStyle = bsDialog
+  Caption = 'Interná Databáza Tovaru'
+  ClientHeight = 491
+  ClientWidth = 943
+  Color = 13420731
+  OnCreate = FormCreate
+  LCLVersion = '1.4.0.4'
+  object Button1: TButton
+    Left = 16
+    Height = 65
+    Hint = 'Vytvor polozku s vlastnym nazvom a kodom.'
+    Top = 40
+    Width = 144
+    Caption = 'Vytvorit Polozku'
+    Color = 10654060
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 536
+    Height = 23
+    Top = 56
+    Width = 144
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 490
+    Height = 15
+    Top = 64
+    Width = 39
+    Caption = 'Nazov :'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 473
+    Height = 15
+    Top = 96
+    Width = 56
+    Caption = 'Kategoria :'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 502
+    Height = 15
+    Top = 128
+    Width = 27
+    Caption = 'Kod :'
+    ParentColor = False
+  end
+  object ComboBox1: TComboBox
+    Left = 536
+    Height = 23
+    Top = 88
+    Width = 144
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'Zelenina'
+      'Ovocie'
+      'Mliecne vyrobky'
+      'Drogeria'
+      'Ine'
+    )
+    OnSelect = ComboBox1Select
+    Style = csDropDownList
+    TabOrder = 2
+    Text = 'Zelenina'
+  end
+  object Edit2: TEdit
+    Left = 536
+    Height = 23
+    Top = 120
+    Width = 144
+    NumbersOnly = True
+    TabOrder = 3
+    Text = '100000'
+  end
+  object Button2: TButton
+    Left = 464
+    Height = 25
+    Top = 160
+    Width = 216
+    Caption = 'Pridat'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Memo1: TMemo
+    Left = 464
+    Height = 232
+    Top = 240
+    Width = 464
+    Lines.Strings = (
+      'Memo1'
+    )
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object Button3: TButton
+    Left = 160
+    Height = 65
+    Top = 40
+    Width = 144
+    Caption = 'Odstranit Oznacene (1)'
+    Color = 10654060
+    OnClick = Button3Click
+    TabOrder = 6
+  end
+  object StringGrid1: TStringGrid
+    Left = 16
+    Height = 352
+    Top = 120
+    Width = 432
+    AutoFillColumns = True
+    ColCount = 3
+    TabOrder = 7
+    OnPrepareCanvas = StringGrid1PrepareCanvas
+    OnSelectCell = StringGrid1SelectCell
+    ColWidths = (
+      64
+      182
+      182
+    )
+    Cells = (
+      4
+      0
+      1
+      '1'
+      0
+      2
+      '2'
+      0
+      3
+      '3'
+      0
+      4
+      '4'
+    )
+  end
+  object Button4: TButton
+    Left = 304
+    Height = 65
+    Top = 40
+    Width = 144
+    Caption = 'Editovat Oznacene (1)'
+    OnClick = Button4Click
+    TabOrder = 8
+  end
+  object Button5: TButton
+    Left = 464
+    Height = 25
+    Top = 192
+    Width = 216
+    Caption = 'Zmenit'
+    OnClick = Button5Click
+    TabOrder = 9
+  end
+  object Label4: TLabel
+    Left = 483
+    Height = 1
+    Top = 27
+    Width = 1
+    Alignment = taCenter
+    ParentColor = False
+  end
+end
