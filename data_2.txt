@@ -1,0 +1,12 @@
+11
+213;Uhorka
+134;Jablko
+145;Citron
+156;Banan
+412;Jogurt Cokoladovy
+456;Jogurt Jahodovy
+491;Mlieko
+483;Maslo
+334;Ruzickovy Kel
+277;Kapusta
+346;Rozok

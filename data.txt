@@ -1,9 +1,13 @@
-8
-[112345];[Mrkva]
-[113456];[Uhorka]
-[234567];[Jablko]
-[245678];[Citron]
-[256789];[Banan]
-[312345];[Jogurt Cokoladovy]
-[356789];[Jogurt Jahodovy]
-[391817];[Mlieko]
+12
+212;Mrkva
+213;Uhorka
+134;Jablko
+145;Citron
+156;Banan
+412;Jogurt Cokoladovy
+456;Jogurt Jahodovy
+491;Mlieko
+483;Maslo
+234;Ruzickovy Kel
+277;Kapusta
+346;Rozok
